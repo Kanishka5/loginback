@@ -66,7 +66,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = (
-    'localhost:3000',
+    'http://loginback.herokuapp.com/',
 )
 
 JWT_AUTH = {
